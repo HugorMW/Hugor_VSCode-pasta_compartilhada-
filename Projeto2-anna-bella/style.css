@@ -1,0 +1,15 @@
+body{
+    font: 16px ;
+    color: beige;
+    background-color: brown;
+    box-sizing: border-box;
+}
+.principal{
+    background-color: black;
+    width: 900px;
+}
+
+.principal a{
+    padding:10px;
+    font-size: 20px;
+}
