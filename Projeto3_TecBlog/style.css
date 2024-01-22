@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+    margin-bottom: 15px;
+}
+
+    /* Painel de navegação e titulo */
+/* nav-title */
+.nav-title{
+    height:60px;
+    background-color: #f7b600;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:5px ;
+}
+.nav-title h1{
+    color: #4e4e4e;
+}
+.nav-title p{
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+/* nav-bar */
+.nav-bar{
+    top: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    background-color: #f7b600;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+    /* Conteudos do site */
+/* Div Principal onde tem 2 colunas(2 divs) */
+.principal{
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+    column-gap: 50px;
+}
+
+    /* Conteudos 1ª coluna */
+/* Div principal onde tera as divs com conteudos */
+.principal-conteudos{
+    display: flex;
+    flex-flow: column;
+}
+/*Divs de conteudos*/
+.conteudos{
+    width: 660px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px 0 0 25px;
+    border-radius: 2.5%; 
+}
+.conteudos h2{
+    color: #f7b600;
+}
+.conteudos img{
+    width: 100%;
+    margin-top: 10px;
+}
+.conteudos a{
+    color: #f7b600
+}
+
+    /* Conteudos 2ª coluna */
+/* Div principal onde tera as divs com conteudos */
+.principal-conteudos-laterais{
+    display: flex;
+    row-gap: 15px;
+    flex-flow: column;
+    
+    margin-top: 15px;
+}
+/*Divs de conteudos*/
+.conteudos-laterais{
+    background-color: #ffffff   ;
+    padding: 10px;
+    width: 240px;
+}
+.conteudos-laterais h3{
+    color: #565656;
+    background-color: #cccccc;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+.conteudos-laterais a{
+    color: #f7b600;
+}
+.conteudos-laterais hr {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
