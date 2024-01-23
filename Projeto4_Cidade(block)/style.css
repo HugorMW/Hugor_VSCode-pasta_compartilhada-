@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Painel de navegação Horizontal */
+#background-nav {
+  order: 1;
+  display: flex;
+  width: 100%;
+  height: 230px;
+  background: url(./img/fundo.png) bottom repeat-x;
+  justify-content: center;
+  min-width: 740px;
+}
+
+#nav-horizontal {
+  z-index: 1;
+  display: flex;
+  position: relative;
+  right: 10px;
+  text-align: center;
+  height: 30px;
+  margin-top: 130px;
+}
+
+#nav-horizontal a {
+  height: 40px;
+  display: block;
+  line-height: 0px;
+  padding: 20px 25px;
+  color: white;
+  text-decoration: none;
+  background: red;
+  font-weight: bold;
+}
+#nav-horizontal a:hover {
+  background-color: brown;
+}
+/* IMGs do Painel Horizontal */
+.img-logo {
+  order: 0;
+  position: relative;
+  top: 10%;
+  left: 100px;
+}
+.img-logo img {
+  width: 150px;
+  height: 70px;
+}
+
+.img-brasil {
+  position: relative;
+  right: 70px;
+  order: 2;
+}
+
+.img-brasil img {
+  width: 170px;
+  height: 170px;
+}
+
+/* Pagina de conteudos (contem as Divs de conteudo) */
+
+/* Estilo das caixas em geral */
+.caixa {
+  display: flex;
+  flex-direction: column;
+  background: url(./img/fundo-caixa.png);
+  padding: 5px;
+  border: 1px solid red;
+}
+.caixa h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Estilo das caixas verticais */
+.caixa-vertical{
+    width: 180px;
+}
+
+/* Caixa entrevistas */
+.entrevistas {
+  background-color: white;
+}
+.entrevistas a {
+  display: block;
+}
+
+/* Caixa news */
+
+    /* Caixas Superiores */
+
+/* Caixa Destaque */
+
+/* Caixa Destaque (Aba Brasil) */
+
+/* Caixa Destaque (Aba fotos) */
+
+/* Caixa Ultima entrevista */
+
+    /* Caixas Inferiores */
+
+/* Caixa Mundo*/
+
+/* Caixa Noticias Recentes */
