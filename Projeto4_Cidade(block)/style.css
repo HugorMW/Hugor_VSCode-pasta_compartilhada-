@@ -72,18 +72,23 @@ body {
   flex-direction: column;
   background: url(./img/fundo-caixa.png);
   padding: 5px;
-  border: 1px solid red;
 }
 .caixa h2 {
     font-size: 1em;
     background: #294c71;
     color: #fff;
     padding: 5px;
+    margin-bottom: 5px;
+}
+/* 1 coluna */
+.coluna1{
+  width: 180px;
 }
 
 /* Estilo das caixas verticais */
-.caixa-vertical{
+.caixa.caixa-vertical{
     width: 180px;
+    float: left;
 }
 
 /* Caixa entrevistas */
@@ -91,13 +96,61 @@ body {
   background-color: white;
 }
 .entrevistas a {
+  font-size: 0.9em;
   display: block;
+  padding: 3px;
+  line-height: 30px;
+  text-decoration:none;
+  color: black;
+  border-bottom:1px solid #f3f3f3;
+}
+.entrevistas a:hover{
+  background: url(./img/marcador.png) no-repeat left;
+  padding-left: 20px;
+  color: #a1a1a1;
 }
 
 /* Caixa news */
-
+.formulario{
+  background-color: white;
+  padding: 5px;
+}
+.formulario input[type="text"]{
+  border: 2px solid black;
+  width: 130px;
+  height: 25px;
+  padding: 5px;
+}
+.formulario input[type="submit"]{
+  background-color: #820404e9;
+  color: white;
+  border: 2px solid black;
+  width: 70px;
+  height: 28px;
+  padding: 5px;
+}
+/* Coluna 2 */
+.coluna2{
+  width: 270px;
+}
     /* Caixas Superiores */
-
+.caixa-superior{
+  width: 270px;
+  background-color: white;
+}
+.caixa-superior img{
+  width: 100%;
+  padding: 2px 5px 5px;
+  background-color: white;
+}
+.caixa-superior h3{
+  color: white; 
+  background-color: #820404e9;
+  padding: 3px;
+  display: inline;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
 /* Caixa Destaque */
 
 /* Caixa Destaque (Aba Brasil) */
