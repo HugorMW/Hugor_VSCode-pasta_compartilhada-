@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 15px;
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color:#8b8448;
+}
+ul{
+    list-style: none;
+}
+/* Row 1 */
+.topo-left{
+    background: url(./imagens/topo-imagem-principal.png) no-repeat beige;
+    width: 100%;
+    height: 250px;
+    z-index: 0;
+}
+.topo-left .chale-hotel{
+    position: absolute;
+    text-indent: -10000px;
+    top: 15px;
+    left: 15px;
+    background: url(./imagens/logo.png) no-repeat left top;
+    width: 151px;
+    height: 66px;
+}
+.topo-right{
+    position: absolute;
+    background: url(./imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+}
+.text-reserva,.menu{
+    margin-left: 90px;
+    margin-right: 15px;
+}
+.text-reserva{
+    padding: 5px 0;
+    margin-top: 15px;
+    margin-right:15px ;
+    margin-bottom: 10px;
+    border-bottom: #8b8448 1px solid;
+    border-top: #8b8448 1px solid;
+    line-height: 2.1em;
+    font-size: 0.8em;
+
+}
+.text-reserva span{
+    line-height: 15px;
+    display: inline;
+    color: #8b8448;
+}
+.text-reserva a{
+    float: right;
+    line-height: 15px;
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+}
+.menu .tabela-menu {
+    float: left;
+}
+.menu .tabela-menu a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+.menu img{
+    float: right;
+    width: 220px;
+    height: 164px;
+}
